@@ -1,0 +1,15 @@
+#
+# TODO list for PingBack
+#
+
+KNOWN ISSUES
+
+* This implements Pingback Server component only.
+* Only does entry discovery through RSS, need to add Atom support
+* Needs a fallback mechanism should RSS and Atom NOT be found
+* Does not trottle pingback
+* Does not trigger republish of entry
+* Does not run callbacks
+* Does not send notification emails
+* Does not work with mod_perl and FastCGI
+
